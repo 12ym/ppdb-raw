@@ -490,7 +490,7 @@
         <div class="hero-stat"><strong>∞</strong><span>Terbuka untuk semua kalangan</span></div>
       </div>
     </div>
-    <div class="hero-visual">
+   <div class="hero-visual">
       <svg viewBox="0 0 400 400" aria-hidden="true">
         <g stroke="#EFD9A0" stroke-width="1.4" fill="none" opacity=".85">
           <circle cx="200" cy="200" r="170"/>
@@ -508,7 +508,11 @@
         </g>
         <text x="200" y="212" text-anchor="middle" font-family="Fraunces, serif" font-size="26" fill="#FBF6EA" font-style="italic">Al Washliyah</text>
       </svg>
-    </div>
+    </div> 
+<!--    <div class=""hero-visual">
+      <img src="logo-raw.jpeg" alt="Logo RA Al Washliyah"
+        style="border-radius:50%; border:4px solid rgba(215,164,65,.5);">
+    </div> -->
   </div>
 </section>
 
@@ -1078,32 +1082,39 @@
   // type: 'illustration' -> ilustrasi bawaan (tempat foto belum tersedia)
   // type: 'image'        -> contoh: { type:'image', src:'media/foto-dhuha.jpg', eyebrow:'Ibadah', title:'...', caption:'...' }
   // type: 'video'        -> contoh: { type:'video', src:'media/profil-sekolah.mp4', eyebrow:'Video', title:'...', caption:'...' }
+
   var slidesData = [
-    {
-      type:'illustration', gradient:['#15392C','#2F6B55'], iconPath:'M12 3v4M12 21v-4M8 7l1.5 1.5M14.5 15.5L16 17M5 12h4M15 12h4M8 17l1.5-1.5M14.5 8.5L16 7',
-      eyebrow:'Ibadah Harian', title:'Sholat Dhuha Berjamaah',
-      caption:'Membiasakan ibadah sejak dini, setiap pagi penuh kehangatan dan kebersamaan.'
-    },
-    {
-      type:'illustration', gradient:['#B9892C','#D9A441'], iconPath:'M4 7h16M4 12h16M4 17h10',
-      eyebrow:'Belajar', title:'Belajar Sambil Bermain',
-      caption:'Sentra belajar tematik yang menyenangkan, dirancang sesuai tahap tumbuh kembang anak.'
-    },
-    {
-      type:'illustration', gradient:['#5B8C87','#2F6B55'], iconPath:'M9 18V5l12-2v13M9 9l12-2M6 18a3 3 0 100 0M18 16a3 3 0 100 0',
-      eyebrow:'Kreativitas', title:'Pentas Seni Akhir Tahun',
-      caption:'Panggung kecil untuk si kecil menampilkan bakat dan kepercayaan dirinya.'
-    },
-    {
-      type:'illustration', gradient:['#1F4D3D','#5B8C87'], iconPath:'M3 11l9-8 9 8M5 10v10h14V10',
-      eyebrow:'Eksplorasi', title:'Outing Class',
-      caption:'Belajar di luar kelas untuk mengenal dunia lebih dekat, langsung dari pengalaman.'
-    },
-    {
-      type:'illustration', gradient:['#B9892C','#15392C'], iconPath:'M12 21s-7-4.5-9.5-9C.8 8 2 4 6 4c2 0 3.5 1.2 4 2.5C10.5 5.2 12 4 14 4c4 0 5.2 4 3.5 8-2.5 4.5-9.5 9-9.5 9z',
-      eyebrow:'Setiap Hari', title:'Kasih Sayang dalam Setiap Kegiatan',
-      caption:'Guru-guru yang hangat dan sabar, menemani tumbuh kembang anak dengan cinta.'
-    }
+ //   {
+ //     type:'illustration', gradient:['#15392C','#2F6B55'], iconPath:'M12 3v4M12 21v-4M8 7l1.5 1.5M14.5 15.5L16 17M5 12h4M15 12h4M8 17l1.5-1.5M14.5 8.5L16 7',
+   //   eyebrow:'Ibadah Harian', title:'Sholat Dhuha Berjamaah',
+    //  caption:'Membiasakan ibadah sejak dini, setiap pagi penuh kehangatan dan kebersamaan.'
+    //},
+ //   {
+   //   type:'illustration', gradient:['#B9892C','#D9A441'], iconPath:'M4 7h16M4 12h16M4 17h10',
+ //     eyebrow:'Belajar', title:'Belajar Sambil Bermain',
+    //  caption:'Sentra belajar tematik yang menyenangkan, dirancang sesuai tahap tumbuh kembang anak.'
+  //  },
+//    {
+    //  type:'illustration', gradient:['#5B8C87','#2F6B55'], iconPath:'M9 18V5l12-2v13M9 9l12-2M6 18a3 3 0 100 0M18 16a3 3 0 100 0',
+  //    eyebrow:'Kreativitas', title:'Pentas Seni Akhir Tahun',
+//      caption:'Panggung kecil untuk si kecil menampilkan bakat dan kepercayaan dirinya.'
+    //},
+   // {
+  //    type:'illustration', gradient:['#1F4D3D','#5B8C87'], iconPath:'M3 11l9-8 9 8M5 10v10h14V10',
+//      eyebrow:'Eksplorasi', title:'Outing Class',
+     // caption:'Belajar di luar kelas untuk mengenal dunia lebih dekat, langsung dari pengalaman.'
+    //},
+    //{
+   //   type:'illustration', gradient:['#B9892C','#15392C'], iconPath:'M12 21s-7-4.5-9.5-9C.8 8 2 4 6 4c2 0 3.5 1.2 4 2.5C10.5 5.2 12 4 14 4c4 0 5.2 4 3.5 8-2.5 4.5-9.5 9-9.5 9z',
+  //    eyebrow:'Setiap Hari', title:'Kasih Sayang dalam Setiap Kegiatan',
+ //     caption:'Guru-guru yang hangat dan sabar, menemani tumbuh kembang anak dengan cinta.'
+ //   }
+     { type:'image', src:'images/sholat-dhuha.jpeg', eyebrow:'Ibadah', title:'Sholat Dhuha Berjamaah', caption:'Membiasakan ibadah dhuha sejak dini, setiap pagi penuh kehangatan dan kebersamaan.' },
+     { type:'image', src:'images/menggambar.jpeg', eyebrow:'Kreativitas', title:'Kegiatan Menggambar', caption:'Kreativitas yang berawal dari keingin tahuan untuk menggambar.' },
+     { type:'image', src:'images/fashion.jpeg', eyebrow:'Pentas Seni', title:'Fashion Show Competition', caption:'Mematik rasa berkompetensi dan melatih jiwa seni dalam diri anak.' },
+     { type:'image', src:'images/kereta.jpeg', eyebrow:'Outing Class', title:'Transportasi KAI', caption:'Membiasakan ibadah dhuha sejak dini, setiap pagi penuh kehangatan dan kebersamaan.' },
+     { type:'image', src:'images/berkebun.jpeg', eyebrow:'Outing Class', title:'Berkebun', caption:'Berkenalan dengan tanaman di kebun dan mempelajari bagaimana mencintai tanaman untuk budidaya.' },
+     { type:'image', src:'images/wisuda.jpeg', eyebrow:'Kegiatan Wisuda', title:'Wisuda Tahun Ajaran 2025/2026', caption:'Merayakan kelulusan TA 2025/2026 dengan wisuda dan foto bersama.' },
   ];
 
   (function initCarousel(){
